@@ -1,0 +1,4 @@
+# Amboss-Item, das den KitEditor oeffnet (wie im Screenshot)
+anvil-item:
+  enabled: true
+  slot: 8          # Hotbar-Slot 0-8

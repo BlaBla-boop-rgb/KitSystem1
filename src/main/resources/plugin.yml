@@ -1,0 +1,19 @@
+name: KitSystem
+version: 1.0.0
+main: de.kitsystem.KitSystem
+api-version: '1.21.11'
+description: Kits erstellen, per Amboss-Menue (Layout) bearbeiten und per Armorstand verteilen.
+commands:
+  kit:
+    description: Kit-System
+    usage: /kit <create|edit|update|rename|icon|stand|give|delete|list|<kitname>>
+  kiteditor:
+    description: Oeffnet den KitEditor (Layout / Inventarsortierung)
+    aliases: [layout, kitlayout]
+permissions:
+  kitsystem.use:
+    description: Kits benutzen und Layout bearbeiten
+    default: true
+  kitsystem.admin:
+    description: Kits erstellen, aendern, loeschen und Armorstands platzieren
+    default: op
